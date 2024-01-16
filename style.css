@@ -1,0 +1,84 @@
+/*///////////////////////////
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+///////////////////////////*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  font-size: 62.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5rem;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 1rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.text {
+  font-size: 1.2rem;
+  padding: 1.5rem;
+}
+
+.text h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  padding-bottom: 1.2rem;
+}
+.text p {
+  color: hsl(220, 15%, 55%);
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+
+.attribute {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1.2rem;
+}
